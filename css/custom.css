@@ -8,6 +8,15 @@ body, html {
     transition: background ease-out 0.2s;
 }
 
+#header .social {
+    margin-left: 0;
+    display: inline-block;
+}
+
+#header .social a {
+    margin-left: 1em;
+}
+
 #header.active {
     position: fixed;
     background: #ffffff;
@@ -60,13 +69,12 @@ body, html {
 
 #servicos a.destaque {
     display: block;
-    background: var(--ligth);
     border-radius: 5px;
     text-align: center;
     padding: 20px;
     text-decoration: none;
     transition: all ease-out 0.2s;
-    color: #ffffff;
+    color: var(--dark);
 }
 
 #servicos a.destaque p {
@@ -199,27 +207,7 @@ body, html {
     color: var(--primary);
 }
 
-#depoimentos .depoimento {
-    background-color: var(--light);
-    border-radius: 5px;
-    display: flex;
-    padding: 30px;
-  }
-  
-  #depoimentos .depoimento .quote {
-    max-width: 35px;
-  }
-  
-  #depoimentos .depoimento .name {
-    color: #aaaaaa;
-  }
-  
-  #depoimentos .depoimento .name span {
-    color: #000;
-    font-weight: 700;
-  }
-
-  #contato .email {
+#contato .email {
     border-radius: 5px;
     background-color: var(--secudary);
     color: #fff;
@@ -237,22 +225,24 @@ body, html {
     top: -30px;
   }
 
-  #contato .email form {
-    width: 60%;
-    display: flex;
+  #contato .email h4 {
+      color: var(--dark);
   }
 
-  #contato .email button { 
+  #contato .email a button { 
+      border-radius: 5px;
+      background: var(--primary);
       position: relative;
       margin-left: 5px;
       top: 24px;
       text-transform: uppercase;
+      border: none;
+      text-decoration: none;
   }
 
-  #contato .email .form-control,
-  #contato .email .form-control::placeholder {
-    background: none;
-    color: #fff;
+  #contato .email a button:hover {
+      background: #24882b;
+      text-decoration: none;
   }
 
   #contato ul {
@@ -276,9 +266,7 @@ body, html {
     display: flex;
     width: 40px;
     height: 40px;
-    border-radius: 40px;
     justify-content: center;
-    background: transparent;
     transition: all ease-in 0.2s;
 }
 
@@ -288,8 +276,17 @@ body, html {
     width: 50px;
 }
 
-#contato .footer img {
-    max-height: 60px;
+#contato .contato .row{
     width: 100%;
-    margin-top: -30px;
+    margin: 0;
+}
+
+#contato .social-footer {
+    background: #222821;
+    color: #ffffff;
+    padding-left: 50px;
+}
+
+#contato .social-footer h5 {
+    color: #ffffff;
 }

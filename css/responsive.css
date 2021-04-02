@@ -23,6 +23,10 @@
         width: 90px;
         top: -40px;
     }
+
+    #contato .social-footer .map iframe {
+        max-width: 370px;
+    }
 }
 
 @media (max-width: 767.98px){
@@ -60,5 +64,9 @@
     #contato ul {
         padding-top: 30px;
         justify-content: center;
+    }
+
+    #contato .row .social-footer .map iframe {
+        max-width: 450px;
     }
 }

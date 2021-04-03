@@ -66,7 +66,13 @@
         justify-content: center;
     }
 
-    #contato .row .social-footer .map iframe {
+    #contato .social-footer .map iframe {
         max-width: 450px;
+    }
+}
+
+@media (max-width: 575.98px){
+    #contato .social-footer .map iframe {
+        max-width: 250px;
     }
 }

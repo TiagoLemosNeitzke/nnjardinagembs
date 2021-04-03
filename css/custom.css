@@ -67,7 +67,7 @@ body, html {
     color: var(--dark);
 }
 
-#servicos a.destaque {
+#servicos .destaque {
     display: block;
     border-radius: 5px;
     text-align: center;
@@ -77,25 +77,25 @@ body, html {
     color: var(--dark);
 }
 
-#servicos a.destaque p {
+#servicos .destaque p {
     text-align: justify;
 }
 
-#servicos a.destaque:hover {
+#servicos .destaque:hover {
     background: var(--secudary);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
     transform: scale(1.02);
     color: var(--dark)
 }
 
-#servicos a.destaque .img-container {
+#servicos .destaque .img-container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 200px;
 }
 
-#servico a.destaque .img-container img {
+#servico .destaque .img-container img {
     max-height: 160px;
 }
 
@@ -209,7 +209,7 @@ body, html {
 
 #contato .email {
     border-radius: 5px;
-    background-color: var(--secudary);
+    background: var(--medium);
     color: #fff;
     position: relative;
     display: flex;
@@ -229,20 +229,23 @@ body, html {
       color: var(--dark);
   }
 
+  #contato .email a{
+      text-decoration: none;
+  }
+
   #contato .email a button { 
       border-radius: 5px;
       background: var(--primary);
+      color: #ffffff;
       position: relative;
       margin-left: 5px;
       top: 24px;
       text-transform: uppercase;
       border: none;
-      text-decoration: none;
   }
 
   #contato .email a button:hover {
       background: #24882b;
-      text-decoration: none;
   }
 
   #contato ul {

@@ -66,6 +66,24 @@ body, html {
      margin-left: 3em;
  }
 
+ #sobre .underline {
+    height: 3px;
+    width: 4em;
+    background: var(--primary);
+    margin-left: 1em;
+}
+
+#sobre .wpp {
+    margin-top: 2vw;
+    margin-left: 2em;
+    background: #fff;
+}
+
+#sobre .row a button{
+    background: var(--primary);
+    color: #fff;
+    font-weight: 600;
+}
 
 #sobre .subtitle {
     color: var(--dark);
@@ -101,6 +119,10 @@ body, html {
 
 #servico .destaque .img-container img {
     max-height: 160px;
+}
+
+#service {
+    background: #F3F2ED;
 }
 
 #clientes a.link-cliente {

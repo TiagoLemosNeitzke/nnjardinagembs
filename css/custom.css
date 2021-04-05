@@ -59,9 +59,13 @@ body, html {
 
 #sobre {
     background: var(--medium);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
 }
+ #sobre .row {
+     margin-left: 3em;
+ }
+
 
 #sobre .subtitle {
     color: var(--dark);

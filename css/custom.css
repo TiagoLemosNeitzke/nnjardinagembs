@@ -8,15 +8,6 @@ body, html {
     transition: background ease-out 0.2s;
 }
 
-#header .social {
-    margin-left: 0;
-    display: inline-block;
-}
-
-#header .social a {
-    margin-left: 1em;
-}
-
 #header.active {
     position: fixed;
     background: #ffffff;
@@ -70,7 +61,6 @@ body, html {
     height: 3px;
     width: 4em;
     background: var(--primary);
-    margin-left: 1em;
 }
 
 #sobre .wpp {
@@ -87,6 +77,9 @@ body, html {
 
 #sobre .subtitle {
     color: var(--dark);
+}
+#sobre a  {
+    text-decoration: none;
 }
 
 #servicos .destaque {
@@ -119,6 +112,12 @@ body, html {
 
 #servico .destaque .img-container img {
     max-height: 160px;
+}
+
+#servicos a {
+    text-decoration: none;
+    text-align: right;
+    margin-top: 2em;
 }
 
 #service {

@@ -8,6 +8,10 @@ body, html {
     transition: background ease-out 0.2s;
 }
 
+#header a{
+    margin-left: 15px;
+}
+
 #header.active {
     position: fixed;
     background: #ffffff;
@@ -90,6 +94,12 @@ body, html {
     text-decoration: none;
     transition: all ease-out 0.2s;
     color: var(--dark);
+}
+
+#service .underline {
+    height: 2px;
+    width: 100%;
+    background: var(--primary);
 }
 
 #servicos .destaque p {

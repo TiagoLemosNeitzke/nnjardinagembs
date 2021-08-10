@@ -80,15 +80,19 @@
 
     #slider .rsp h1{
        position: absolute;
-       margin-right: 1em;
     }
 
     #slider .rsp h4{
         margin-top: 5em;
         margin-bottom: 1em;
+        margin-left: 2em;
     }
     #slider .rsp a {
         width: 200px;
+    }
+
+    #sobre {
+        margin-left: -3.5em;
     }
 
     #contato .social-footer .map iframe {

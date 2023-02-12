@@ -61,7 +61,11 @@ body, html {
     padding-bottom: 1vw;
 }
 
- #sobre .underline {
+.bg{
+   background: var(--medium); 
+}
+
+.underline {
     height: 3px;
     width: 4em;
     background: var(--primary);
@@ -94,12 +98,6 @@ body, html {
     text-decoration: none;
     transition: all ease-out 0.2s;
     color: var(--dark);
-}
-
-#servicos .underline {
-    height: 2px;
-    width: 100%;
-    background: var(--primary);
 }
 
 #servicos .destaque p {
@@ -178,4 +176,8 @@ body, html {
 
 #contato .social-footer h5 {
     color: #ffffff;
+}
+
+#service-list{
+    font-size: 18px;
 }

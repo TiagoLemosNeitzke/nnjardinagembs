@@ -1,6 +1,24 @@
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 700;
-    color: var(--dark);
+    color      : var(--dark);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size  : 24px;
+}
+
+
+p {
+    font-size: 18px;
 }
 
 a {
@@ -16,41 +34,42 @@ a:hover {
 }
 
 .subtitle {
-    color: var(--medium);
+    color      : var(--medium);
     font-weight: 400;
 }
+
 .block {
     margin-bottom: 120px;
 }
 
 .button {
     text-transform: lowercase;
-    font-weight: 500;
-    padding-left: 1.4rem;
-    padding-right: 1.4rem;
+    font-weight   : 500;
+    padding-left  : 1.4rem;
+    padding-right : 1.4rem;
 }
 
 .button-primay {
-    background: var(--primary);
+    background  : var(--primary);
     border-color: var(--primary);
 }
 
-.button-primay:hover{
-    background: var(--primary-dark);
+.button-primay:hover {
+    background  : var(--primary-dark);
     border-color: var(--primary-dark);
 }
 
 .button-primay-outline {
     border-color: var(--primary);
-    color: var(--primary);
+    color       : var(--primary);
 }
 
 .button-primay-outline:hover {
-    background: var(--primary-dark);
+    background  : var(--primary-dark);
     border-color: var(--primary-dark);
 }
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: var(--primary);
+    background: var(--primary);
 }
